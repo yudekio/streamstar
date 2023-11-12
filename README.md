@@ -32,8 +32,8 @@ Make sure you have Node.js and npm installed. Then, follow these steps:
    npm install
    ```
 
-To run the project locally, use the following command:
+3. To run the project locally, use the following command:
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
