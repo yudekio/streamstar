@@ -50,16 +50,16 @@ const MainPage = () => {
           nick="schoolb0y"
         />
         <SmallStream
-          img="https://www.levelpush.com/wp-content/uploads/2020/03/Reveal_Window_VALORANT-1-1-scaled.jpg"
-          title="Playing Valorant #lowskill"
+          img="https://www.apple.com/newsroom/videos/vision-pro-djay/posters/Apple-Vision-Pro-SDK-availability-djay.jpg.large_2x.jpg"
+          title="Testing NEW SPATIAL COMPUTER! WOW! #2077"
           views="6.1k"
-          nick="helloworld#1010"
+          nick="byeworld77"
         />
         <SmallStream
-          img="https://live.staticflickr.com/65535/52148861121_8d6063846f_h.jpg"
-          title="Hi, I'm the problem #overwatch2"
+          img="https://wistar.org/sites/default/files/styles/2_1_display/public/2022-02/Fenwick%20%26%20Kristy.jpg?h=9855f42d&itok=jmevumFN"
+          title="we just invented a cure for cancer... #breakthrough"
           views="5.8k"
-          nick="midnight#1111"
+          nick="maskman2"
         />
       </div>
       <h1 className="mt-[36px] ">

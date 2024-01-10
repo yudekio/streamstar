@@ -28,7 +28,7 @@ const Footer = () => {
           games
         </Link>
         <Link className="uppercase truncate" href={"/"}>
-          top streamers
+          categories
         </Link>
         <Link href={"/"} className="uppercase">
           tournaments
