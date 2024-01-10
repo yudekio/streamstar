@@ -25,7 +25,7 @@ const Footer = () => {
           />
         </svg>
         <Link className="uppercase" href={"/"}>
-          games
+          news
         </Link>
         <Link className="uppercase truncate" href={"/"}>
           categories

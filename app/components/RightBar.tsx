@@ -1,24 +1,24 @@
-"use client"
-import Friend from "./Friend"
-import { friendsList } from "../friendsList"
-import Button from "./Button"
-import ButtonFill from "./ButtonFill"
-import { useState } from "react"
-import GlobalChat from "./GlobalChat"
-import FriendsList from "./FriendsList"
-import PMChat from "./PMChat"
+"use client";
+import Friend from "./Friend";
+import { friendsList } from "../friendsList";
+import Button from "./Button";
+import ButtonFill from "./ButtonFill";
+import { useState } from "react";
+import GlobalChat from "./GlobalChat";
+import FriendsList from "./FriendsList";
+import PMChat from "./PMChat";
 
 const RightBar = () => {
-  const [activeBar, setActiveBar] = useState<Number>(3)
-  const [openRightBar, setOpenRightBar] = useState<Boolean>(true)
+  const [activeBar, setActiveBar] = useState<Number>(3);
+  const [openRightBar, setOpenRightBar] = useState<Boolean>(true);
 
   const handleRightBar = (value: Boolean) => {
-    setOpenRightBar(value)
-  }
+    setOpenRightBar(value);
+  };
 
   const handleClickOnBar = (bar: number) => {
-    setActiveBar(bar)
-  }
+    setActiveBar(bar);
+  };
   return (
     <>
       {openRightBar && (
@@ -76,8 +76,8 @@ const RightBar = () => {
             {activeBar === 3 && <FriendsList />}
           </div>
           <div className="px-[14px] flex flex-col gap-2 mt-auto mb-[20px]">
-            <Button text="CONNECT WITH STEAM" />
-            <ButtonFill text="INVITE FRIENDS" />
+            <Button text="Smart calculator" />
+            <ButtonFill text="AI Bot" />
           </div>
         </aside>
       )}
@@ -106,7 +106,7 @@ const RightBar = () => {
         </aside>
       )}
     </>
-  )
-}
+  );
+};
 
-export default RightBar
+export default RightBar;
