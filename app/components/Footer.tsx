@@ -41,7 +41,7 @@ const Footer = () => {
         <AiFillGithub size="6em" className="m-auto mb-8" />
       </Link>
       <div className="flex justify-center text-[12px] pb-[40px]">
-        <p>Copyright &copy; 2023</p>
+        <p>Copyright &copy; {new Date().getFullYear()}</p>
       </div>
     </div>
   );

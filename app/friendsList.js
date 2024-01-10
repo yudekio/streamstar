@@ -1,22 +1,22 @@
 export const friendsList = [
   {
-    nick: "zxcursed#2767",
-    img: "https://i.pinimg.com/236x/37/10/c4/3710c40711372a7776bfb63f7a51d84e.jpg",
+    nick: "researcher1010",
+    img: "https://www.thoughtco.com/thmb/ipCW13jdnJjHoLKbS0b_2mFHocI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/alanturing-5b85aa874cedfd0025bf4240.png",
     isOnline: true,
   },
   {
-    nick: "eternal18#5432",
-    img: "https://pbs.twimg.com/media/E7cMxYGVkAECVMk.jpg",
+    nick: "samaltman",
+    img: "https://hips.hearstapps.com/hmg-prod/images/albert-einstein-sticks-out-his-tongue-when-asked-by-news-photo-1681316749.jpg",
     isOnline: true,
   },
   {
-    nick: "midnight#1111",
-    img: "https://animesher.com/orig/1/197/1975/19759/animesher.com_anime-icon-kakegurui-red-1975901.jpg",
+    nick: "aigenerated",
+    img: "https://i.pinimg.com/originals/a7/34/ba/a734badfa27877e7f6e8c1cf385f4fd6.jpg",
     isOnline: false,
   },
   {
-    nick: "kitty#9843",
+    nick: "visionpro3500",
     img: "https://i.pinimg.com/736x/3f/59/85/3f5985e2df5f002358cc7e71deb086c4.jpg",
     isOnline: true,
   },
-]
+];

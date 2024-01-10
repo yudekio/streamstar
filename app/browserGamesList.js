@@ -1,20 +1,20 @@
 export const browserGamesList = [
   {
-    img: "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota2_social.jpg",
+    img: "https://www.denverpost.com/wp-content/uploads/2020/02/Code_Breaker_Memorabilia_51691.jpg?w=640",
   },
   {
-    img: "https://i.ytimg.com/vi/GKXS_YA9s7E/maxresdefault.jpg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/800px-Tesla_circa_1890.jpeg",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/en/6/6e/CSGOcoverMarch2020.jpg",
+    img: "https://cdn.britannica.com/21/148821-050-5423F9CC/Dmitri-Mendeleev.jpg",
   },
   {
-    img: "https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
   },
   {
-    img: "https://m.media-amazon.com/images/M/MV5BMzNkMmE5MjktMzRhYS00MzZhLWEzYzMtMWFkYmE4MDk0NDZkXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg",
   },
   {
-    img: "https://w0.peakpx.com/wallpaper/238/272/HD-wallpaper-rust-game-satellite-gaming-pc-rust-game-video-game.jpg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-1200px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg",
   },
-]
+];

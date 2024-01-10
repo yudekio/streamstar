@@ -1,6 +1,6 @@
-import React from "react"
-import GameAside from "./GameAside"
-import { gamesList } from "../gamesList"
+import React from "react";
+import GameAside from "./GameAside";
+import { gamesList } from "../gamesList";
 
 const LeftBar = () => {
   return (
@@ -26,7 +26,7 @@ const LeftBar = () => {
         </div>
       </div>
       <div className="items-center justify-between px-[10px] py-[6px] border-[#4F4F4F] border-b-[1px] hidden lg:flex truncate text-[12px] hover:bg-[#212327] cursor-pointer">
-        <p>Popular games</p>
+        <p>Popular categories</p>
       </div>
       <div className="flex flex-col">
         {gamesList.map((game, index) => (
@@ -34,7 +34,7 @@ const LeftBar = () => {
         ))}
       </div>
     </aside>
-  )
-}
+  );
+};
 
-export default LeftBar
+export default LeftBar;

@@ -1,22 +1,22 @@
 export const gamesList = [
   {
-    title: "DOTA 2",
-    img: "https://cdn.vox-cdn.com/thumbor/X-IsU2E_KAccjIeKaudP2ZTJ7qg=/0x0:660x360/660x360/filters:focal(330x180:331x181)/cdn.vox-cdn.com/uploads/chorus_asset/file/6645195/dota-2-logo.0.jpg",
+    title: "Math",
+    img: "https://png.pngtree.com/png-vector/20220617/ourmid/pngtree-math-icon-mathematics-abstract-black-png-image_5116099.png",
   },
   {
-    title: "CS:GO",
-    img: "https://www.influxdata.com/wp-content/uploads/CSGO-logo.jpg",
+    title: "Science",
+    img: "https://static.vecteezy.com/system/resources/previews/013/172/347/original/microscope-icon-for-the-purposes-of-education-biology-science-and-others-free-vector.jpg",
   },
   {
-    title: "LOL",
-    img: "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9a2715ced150cb6e/5ef1374f6aaf2924fd231f62/league-client-update-header.jpg",
+    title: "Physics",
+    img: "https://cdn-icons-png.flaticon.com/512/306/306335.png",
   },
   {
-    title: "Valorant",
-    img: "https://static.vecteezy.com/system/resources/previews/019/763/094/original/valorant-icon-logo-free-vector.jpg",
+    title: "Programming",
+    img: "https://cdn-icons-png.flaticon.com/512/1465/1465612.png",
   },
   {
-    title: "Overwatch 2",
-    img: "https://static-00.iconduck.com/assets.00/games-overwatch-icon-512x512-ixafb9ve.png",
+    title: "Biotech",
+    img: "https://static.vecteezy.com/system/resources/previews/015/333/676/original/biotech-icon-design-free-vector.jpg",
   },
-]
+];
