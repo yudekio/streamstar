@@ -1,15 +1,14 @@
-"use client"
-import React, { useState } from "react"
-import Button from "./Button"
-import Avatar from "./Avatar"
-import Link from "next/link"
+"use client";
+import React, { useState } from "react";
+import Button from "./Button";
+import Link from "next/link";
 
 const Navigation = () => {
-  const [isActiveModal, setIsActiveModal] = useState<Boolean>(false)
+  const [isActiveModal, setIsActiveModal] = useState<Boolean>(false);
 
   const handleClick = () => {
-    setIsActiveModal(!isActiveModal)
-  }
+    setIsActiveModal(!isActiveModal);
+  };
   return (
     <nav className="bg-[#212327] h-[56px] flex items-center sm:px-[56px] px-[16px] justify-between">
       <Link href={"/"}>
@@ -49,7 +48,7 @@ const Navigation = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navigation
+export default Navigation;

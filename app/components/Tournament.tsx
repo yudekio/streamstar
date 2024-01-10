@@ -1,42 +1,40 @@
-"use client"
-import React, { useState, useEffect } from "react"
-import Image from "next/image"
-import Button from "./Button"
+"use client";
+import React, { useState, useEffect } from "react";
 
 interface ITournament {
-  title: string
-  prize: string
-  maxTeams: number
-  enrolled: number
-  img: string
+  title: string;
+  prize: string;
+  maxTeams: number;
+  enrolled: number;
+  img: string;
 }
 
 const Tournament = ({ title, prize, maxTeams, enrolled, img }: ITournament) => {
-  const [timer, setTimer] = useState<number>(4 * 60 * 60) // 4 hours in seconds
+  const [timer, setTimer] = useState<number>(4 * 60 * 60); // 4 hours in seconds
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setTimer((prevTimer) => prevTimer - 1)
-    }, 1000)
+      setTimer((prevTimer) => prevTimer - 1);
+    }, 1000);
 
     // Clean up the interval when the component unmounts
-    return () => clearInterval(intervalId)
-  }, [])
+    return () => clearInterval(intervalId);
+  }, []);
 
   const formatTime = (time: number): string => {
-    const days = Math.floor(time / (24 * 60 * 60))
-    const hours = Math.floor((time % (24 * 60 * 60)) / (60 * 60))
-    const minutes = Math.floor((time % (60 * 60)) / 60)
+    const days = Math.floor(time / (24 * 60 * 60));
+    const hours = Math.floor((time % (24 * 60 * 60)) / (60 * 60));
+    const minutes = Math.floor((time % (60 * 60)) / 60);
 
     return `${Math.max(0, days)}d ${Math.max(0, hours)}h ${Math.max(
       0,
       minutes
-    )}m`
-  }
+    )}m`;
+  };
   return (
     <div className=" lg:w-1/3 w-full bg-[#18181B] rounded-xl cursor-pointer hover:-translate-y-1 transition-transform truncate">
       <div className="flex gap-[20px] py-[20px] px-[26px]">
-        <Image
+        <img
           src={img}
           width={200}
           height={200}
@@ -66,7 +64,7 @@ const Tournament = ({ title, prize, maxTeams, enrolled, img }: ITournament) => {
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Tournament
+export default Tournament;
