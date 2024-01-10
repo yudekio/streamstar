@@ -6,7 +6,7 @@
 
 ## Demo
 
-Check out the platform: [Demo](https://streamstar.vercel.app/)
+Check out the platform: [Demo](https://yudekio.github.io/streamstar/)
 
 ## Features
 
