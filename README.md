@@ -30,7 +30,8 @@ Make sure you have Node.js and npm installed. Then, follow these steps:
 
 1. Clone the repository:
 
-   ```bash git clone https://github.com/yudekio/streamstar.git
+   ```bash
+   git clone https://github.com/yudekio/streamstar.git
 
    ```
 
