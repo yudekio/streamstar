@@ -30,8 +30,8 @@ Make sure you have Node.js and npm installed. Then, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone "link"
+   ```bash git clone https://github.com/yudekio/streamstar.git
+
    ```
 
 2. Install dependencies:
