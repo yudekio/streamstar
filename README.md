@@ -38,5 +38,3 @@ Make sure you have Node.js and npm installed. Then, follow these steps:
    ```bash
    npm run dev
    ```
-
-Glimpse into the future of streaming 🌐✨
