@@ -1,34 +1,34 @@
-"use client"
-import { useEffect, useState } from "react"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
-import axios from "axios"
-import { toast } from "react-hot-toast"
-import Navigation from "../components/Navigation"
-import Button from "../components/Button"
-import ButtonFill from "../components/ButtonFill"
+"use client";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import axios from "axios";
+import { toast } from "react-hot-toast";
+import Navigation from "../components/Navigation";
+import Button from "../components/Button";
+import ButtonFill from "../components/ButtonFill";
 
 const SignUp = () => {
-  const router = useRouter()
+  const router = useRouter();
   const [user, setUser] = useState({
     email: "",
     password: "",
     username: "",
-  })
-  const [buttonDisabled, setButtonDisabled] = useState(true)
-  const [loading, setLoading] = useState(false)
+  });
+  const [buttonDisabled, setButtonDisabled] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const onSignup = async () => {
-    try {
-      setLoading(true)
-      const response = await axios.post("/api/users/signup", user)
-      console.log("Signup success", response.data)
-      router.push("/login")
-    } catch (error: any) {
-      console.log("Signup failed", error.message)
-      toast.error(error.message)
-    }
-  }
+    // try {
+    //   setLoading(true)
+    //   const response = await axios.post("/api/users/signup", user)
+    //   console.log("Signup success", response.data)
+    //   router.push("/login")
+    // } catch (error: any) {
+    //   console.log("Signup failed", error.message)
+    //   toast.error(error.message)
+    // }
+  };
 
   useEffect(() => {
     if (
@@ -36,9 +36,9 @@ const SignUp = () => {
       user.password.length > 0 &&
       user.username.length > 0
     ) {
-      setButtonDisabled(false)
-    } else setButtonDisabled(true)
-  }, [user])
+      setButtonDisabled(false);
+    } else setButtonDisabled(true);
+  }, [user]);
   return (
     <>
       <Navigation></Navigation>
@@ -87,7 +87,7 @@ const SignUp = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SignUp
+export default SignUp;
