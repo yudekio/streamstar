@@ -56,7 +56,7 @@ const MainPage = () => {
           nick="byeworld77"
         />
         <SmallStream
-          img="https://wistar.org/sites/default/files/styles/2_1_display/public/2022-02/Fenwick%20%26%20Kristy.jpg?h=9855f42d&itok=jmevumFN"
+          img="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg5MTcyMTUtaW1hZ2Uta3d2dXNqazIuanBn.jpg"
           title="we just invented a cure for cancer... #breakthrough"
           views="5.8k"
           nick="maskman2"

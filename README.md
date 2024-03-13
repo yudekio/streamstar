@@ -1,8 +1,8 @@
-# Science Streaming Platform
+# Scientific Streaming Platform
 
 ![StreamStar Logo](./public/logo2.svg)
 
-🚀 Explore the wonders of science with our cutting-edge streaming platform built using Next.js, TypeScript, Tailwind CSS, React, MongoDB, and secure user authentication powered by bcrypt.
+Streaming application built using Next.js, TypeScript, Tailwind CSS, React, MongoDB, and secure user authentication powered by bcrypt.
 
 ## Demo
 
@@ -13,7 +13,7 @@ Check out the platform: [Demo](https://yudekio.github.io/streamstar/)
 - Next.js
 - TypeScript
 - Tailwind CSS
-- React
+- TypeScript
 - MongoDB
 
 ## Installation
