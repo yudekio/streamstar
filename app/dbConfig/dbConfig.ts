@@ -5,7 +5,7 @@ dotenv.config();
 
 export async function connect() {
   try {
-    mongoose.connect(process.env.MONGO_URI!);
+    mongoose.connect(`sample`);
     const connection = mongoose.connection;
 
     connection.on("connected", () => {
